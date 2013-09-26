@@ -1,0 +1,8 @@
+You are going on a long trip. You start on the road at mile post 0. Along the way there are n motels, at mile posts a1 < a2 < ... < an, where each ai is measured from the starting point. The only places you are allowed to stop are at these motels, but you can choose which of the motels you stop at. You must visit motels in order and cannot go backwards. You must stop at the final motel (at distance an) which is your destination. You'd ideally like to travel 200 miles a day, but this may not be possible (depending on the spacing of the motels). If you travelx miles during a day, the penalty for that day is (200-x)2. You want to plan your trip so as to minimize the total penalty---that is, the sum, over all travel days, of the daily penalties. (From Algorithms by Dasgupta, Papadimitriou, and Vazirani.)
+If there are only a few motels, this problem can be easily solved using exhaustive search. However, if there are dozens or hundreds of motels, you need a smarter algorithm!
+Part 1 of Assignment
+
+You will implement an ArrayList data structure in the file MyArrayList.java. It should implement the interface inMyArrayListInterface.java and work with the demonstration file DemonstrateMyArrayList.java.
+Part 2 of Assignment
+
+You will implement a solution to The Motel Problem. Use the ArrayList you implemented in part 1. Your program should run in time proportional to the square of the number of motels and work well with up to several hundred motels. It should work with the demonstration file DemonstrateMotelProblem.java.
